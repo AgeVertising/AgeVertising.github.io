@@ -1,0 +1,40 @@
+.container-fluid {
+	background: #333;
+	color: #FFF;
+}
+.body-scrolled .navbar .navbar-nav>li>a { 
+	color: #888;
+}
+.main-header .primary-trans-bg { 
+	background: none;
+	background-image: url('/assets/images/front-image-new.jpg');
+	background-size: contain;
+	background-size: cover;
+}
+.btn.se-btn-white, .icon {
+	color: #333 !important;
+}
+ .btn.se-btn.btn-rounded { 
+ 	border-color: #333;
+ 	color: #333;
+ 	background: #FFF;
+ }
+.btn.se-btn-white:hover,  .btn.se-btn.btn-rounded:hover { 
+	background: #333;
+	color: #FFF !important;
+}
+.primary-bg {
+    background: #333;
+    color: #f9f9f9;
+}
+.alert.alert-info.alert-dismissible {
+	margin-top: 60px;
+	position: absolute;
+	margin-bottom: 0;
+	z-index: 90;
+	width: 100%;
+}
+/*google maps */
+#map {
+	min-height: 500px !important;
+}
